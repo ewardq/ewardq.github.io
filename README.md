@@ -1,7 +1,10 @@
 ## My GitHub page
 
 ```markdown
-#define MASK(x) ((unsigned char)(1<<x)) 
+#define MASK(x) ((unsigned char)(1<<x))    //La rotación se hace en el compilador. No consume recursos de procesador.
+
+// En puerto B: Set bits 2 and 5, clear bits 0, 3 and 7
+//              If bit 4 is high, then invert bit 1
 
 void manage_PORTB(){
   unit8 temp;
