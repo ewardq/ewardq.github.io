@@ -1,3 +1,3 @@
 ## My GitHub page
 
-Familiarizándome con Jekyll
+Familiarizándome con HTML5 y CSS
